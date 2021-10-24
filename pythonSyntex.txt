@@ -30,3 +30,6 @@ li=['p','a','r',0,1,2,3,4]
 	*index()--->returns the index of the first matched item
 	*count()--->returns the count of the number of items passed as an argument
 	*copy()--->returns a shallow copy of the list
+
+##Difference strip() and split(): strip() is used to removed specefic character from strin. its may be whitespace, character, symbol etc
+				  split() is to make sub string list break a string

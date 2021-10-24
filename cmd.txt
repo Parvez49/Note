@@ -1,4 +1,6 @@
 ####clear screen: cls
+
+--------Folder and file control-----------
 ####go to specific directory: cd (directory) ex:cd desktop
 ####show directory file: dir
 ####show directory file with hidden file:dir/a
