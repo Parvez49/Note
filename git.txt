@@ -38,6 +38,11 @@ version control(if we add two or more commit then we think that our previous ver
 
 -------------------------------------------------------------------------
 
+####to login on git:
+	git config --global user.name "your/user_name"
+	git config --global user.email "yourmail@mail.com"
+	git congig --global --list (to check login user name and email address)
+
 
 Working with github.
 Create github repository on github first
@@ -47,3 +52,5 @@ copy link from repository and
 ####To open vscode editor using git command:code .
 ####To push from local repository to github repository: git push -u origin master
 
+start here.
+again start writing here
