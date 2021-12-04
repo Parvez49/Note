@@ -1,7 +1,7 @@
 git command
 
 
-
+####To open vscode editor using git command:code .
 ####To move a directory: cd Desktop/
 ####To create a folder on directory: mkdir ph(folder name)
 
@@ -49,8 +49,13 @@ Create github repository on github first
 copy link from repository and
 
 ####to clone:git clone (link) (this create folder on directory)
-####To open vscode editor using git command:code .
 ####To push from local repository to github repository: git push -u origin master
 
-start here.
-again start writing here
+-------------------------------------------------------------------------
+
+to upload a folder
+####git add foldername
+####git commit -m "---"
+####git remote add origin repositoryAddessFromGitHub
+####git push -u origin master
+####git push origin master 
