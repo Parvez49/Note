@@ -99,6 +99,7 @@ db.collection("users")
                 });
 
 //----------------Retrieving Document data from firestore----------------------------------
+FirebaseFirestore db= FirebaseFirestore.getInstance();
 DocumentReference docRef = db.collection("cities").document("SF");
 docRef.get().addOnCompleteListener(new OnCompleteListener<DocumentSnapshot>() {
     @Override
