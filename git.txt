@@ -54,8 +54,15 @@ copy link from repository and
 -------------------------------------------------------------------------
 
 to upload a folder
-####git add foldername
-####git commit -m "---"
-####git remote add origin repositoryAddessFromGitHub
-####git push -u origin master
-####git push origin master 
+…or create a new repository on the command line
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:Parvez49/Programming.git
+git push -u origin master
+
+…or push an existing repository from the command line
+git remote add origin git@github.com:Parvez49/Programming.git
+git branch -M main
+git push -u origin main
